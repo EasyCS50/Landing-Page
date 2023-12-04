@@ -52,9 +52,50 @@ h1 {
     margin: 16px 0px;
 }
 
+h1.info-title {
+    text-align: center;
+    padding: 16px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 16px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    margin: 16px;
+    width: 150px;
+    height: 250px;
+}
+
+.card, .item, .subtext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.item {
+    width: 150px;
+    height: 150px;
+    border: 3px solid royalblue;
+    border-radius: 25px;
+}
+
+.subtext {
+    filter: contrast(50%);
+}
+
 button {
     cursor: pointer;
     padding: 8px 24px;
+    margin: 8px 0px;
     border-radius: 8px;
     background: #3882F6;
     border: 1px solid royalblue;

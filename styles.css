@@ -92,6 +92,35 @@ h1.info-title {
     filter: contrast(50%);
 }
 
+.quote-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 60px;
+}
+
+.quote {
+    max-width: 825px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    filter: contrast(50%);
+    color: #1F2837;
+    margin-bottom: 0;
+}
+
+.quote-name {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
 button {
     cursor: pointer;
     padding: 8px 24px;

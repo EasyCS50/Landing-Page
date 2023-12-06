@@ -6,7 +6,7 @@ body {
     flex-direction: column;
 }
 
-.header, .awesome, .footer {
+.header, .awesome-section, .footer {
     background-color: #1F2837;
 }
 
@@ -28,7 +28,7 @@ body {
     flex-grow: 1;
 }
 
-.awesome {
+.awesome-section {
     display: flex;
     justify-content: center;
 }
@@ -54,7 +54,8 @@ h1 {
 
 h1.info-title {
     text-align: center;
-    padding: 16px;
+    padding: 16px 16px 0 16px;
+    margin-bottom: 0;
 }
 
 .cards {
@@ -62,7 +63,7 @@ h1.info-title {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 16px;
+    margin: 0 16px 16px 16px;
 }
 
 .card {

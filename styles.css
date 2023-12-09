@@ -145,6 +145,12 @@ h1.info-title {
     padding: auto 20px;
 }
 
+.footer {
+    text-align: center;
+    color: white;
+    padding: 16px;
+}
+
 button {
     cursor: pointer;
     padding: 8px 24px;
